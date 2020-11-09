@@ -23,7 +23,7 @@ jobs:
     # CircleCI will report the results back to your VCS provider.
     steps:
       - checkout
-      - maven/with-cache:
+      - maven/with_cache:
           steps:
             - run:
                 name: Build
